@@ -40,8 +40,6 @@ def start_appium(post_num=4723):
     time.sleep(3)  # 等待启动完成
     LOG.info('appium server 启动成功...')
 
-    # print('appium server 启动成功...','\n')
-
 if __name__ == '__main__':
     stop_appium()
     start_appium()
